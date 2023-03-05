@@ -1,11 +1,20 @@
 .profile {
   padding-left: 50px;
-  padding-top: 50px;
+
   width: 250px;
 }
 
 .avatar {
   width: 250px;
+}
+
+.tag {
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 400;
+  text-align: left;
+  padding-left: 25px;
+  margin: 0;
 }
 
 .name {
@@ -20,6 +29,7 @@
   font-weight: 400;
   text-align: center;
   margin: 10px 0;
+  font-style: italic;
 }
 
 .stats {

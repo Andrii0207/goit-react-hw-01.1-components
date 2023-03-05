@@ -10,16 +10,15 @@ import transactions from './TransactionHistory/transactions.json';
 export const App = () => {
   return (
     <div
-      style={
-        {
-          // height: '100vh',
-          // display: 'flex',
-          // justifyContent: 'center',
-          // alignItems: 'center',
-          // fontSize: 40,
-          // color: '#010101',
-        }
-      }
+      style={{
+        height: '100vh',
+        display: 'flex',
+        marginTop: '50px',
+        // justifyContent: 'center',
+        // alignItems: 'center',
+        // fontSize: 20,
+        color: '#010101',
+      }}
     >
       <Profile user={user} />
       <Statistics data={data} title="Upload stats" />
