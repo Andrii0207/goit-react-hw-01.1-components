@@ -3,7 +3,7 @@ import css from './Profile.module.css';
 export const Profile = ({ user: { username, tag, location, avatar, stats } }) => {
   return (
     <div className={css.profile}>
-      <div class="description">
+      <div className="description">
         <img
           src="https://cdn-icons-png.flaticon.com/512/1077/1077012.png"
           alt="User avatar"

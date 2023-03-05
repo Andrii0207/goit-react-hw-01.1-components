@@ -1,0 +1,30 @@
+.transactionHistory {
+  width: 400px;
+  margin-left: 50px;
+  margin-top: 50px;
+  border: 1px solid;
+}
+
+.thHead {
+  font-size: 25px;
+}
+
+.tdBody {
+  text-align: center;
+  border: 1px solid;
+  height: 20px;
+}
+
+.trBody:nth-of-type(2n - 1) {
+  background-color: rgb(197, 222, 244);
+}
+
+.trBody:nth-of-type(2n + 0) {
+  background-color: rgb(44, 150, 241);
+}
+
+.tdType {
+  text-align: left;
+  padding-left: 20px;
+  border: 1px solid;
+}
