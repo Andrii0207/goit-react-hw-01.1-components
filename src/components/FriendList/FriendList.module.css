@@ -30,9 +30,11 @@
 }
 
 .true {
+  composes: status;
   background-color: green;
 }
 
 .false {
+  composes: status;
   background-color: red;
 }
